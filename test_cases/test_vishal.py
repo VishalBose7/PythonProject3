@@ -9,8 +9,8 @@ from WebPageClass.Login import LoginPage
 from WebPageClass.rahulshetty_login import RSLogin
 
 
-class TestExample1:
-    def test_utkarsh(self):
+class TestExample2:
+    def test_utkarsh12(self):
         c = webdriver.ChromeOptions()
         c.add_argument("--incognito")
         driver = webdriver.Chrome(options=c)
@@ -26,7 +26,7 @@ class TestExample1:
         RSLogin.select_checkbox(driver)
         RSLogin.click_signin(driver)
 
-    def test_utkarsh1(self):
+    def test_utkarsh1112(self):
         c = webdriver.ChromeOptions()
         c.add_argument("--incognito")
         driver = webdriver.Chrome(options=c)
