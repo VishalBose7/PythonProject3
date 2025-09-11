@@ -26,20 +26,3 @@ class TestExample2:
         RSLogin.select_checkbox(driver)
         RSLogin.click_signin(driver)
 
-    def test_utkarsh1112(self):
-        c = webdriver.ChromeOptions()
-        c.add_argument("--incognito")
-        driver = webdriver.Chrome(options=c)
-        driver.get("https://rahulshettyacademy.com/loginpagePractise/")
-        sleep(5)
-        RSLogin.enter_username(driver, "rahulshettyacademy")
-        sleep(5)
-        RSLogin.enter_pwd(driver, "learning")
-        # RSLogin.select_radio(driver)
-        sleep(5)
-        RSLogin.select_dropdown(driver, "consult")
-        sleep(5)
-        RSLogin.select_checkbox(driver)
-        RSLogin.click_signin(driver)
-        print("hello i am using git restore")
-
